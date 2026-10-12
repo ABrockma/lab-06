@@ -97,14 +97,7 @@
 5. <ins>Create tests</ins>
  - First, delete the `ExampleUnitTest` File
  - Then, create a new file called `WizardTest` under the folder `com.example.lab_6 (test)`
- - Add the following setup code in `WizardTest` inside the WizardTest class@Test
-fun castSpell_explosion_successful() {
-    val damageDealt = evilWizard.castSpell("Explosion")
-
-    assertEquals(30, damageDealt) // spellPower of 10 * 3 = 30
-
-    assertEquals(20, evilWizard.mana) // mana of 30 - 10 = 20
-}:
+ - Add the following setup code in `WizardTest` inside the WizardTest class:
  ```kotlin
  private lateinit var evilWizard: Wizard
 
