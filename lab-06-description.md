@@ -139,10 +139,6 @@ fun castSpell_explosion_unsuccessful() {
 - One way to do this is to right-click the `WizardTest` file and click `Run 'WizardTest'`
 - You should see that 2/2 tests passed!
 
-> [!NOTE]
-> - The `walkthrough.md` contains the complete code for `Wizard`, `WizardTest`, and `build.gradle.kts (:app)` for double-checking purposes
-> - While you could simply copy and paste the code, you're stripping yourself of a learning opportunity :)
-
 ## 2. Lab 6 Participation Exercise
 If you've been following along with the walkthrough, this exercise should be fairly straightforward!
 1. Make a test to check the behaviour when we successfully cast a *frostbite* spell
