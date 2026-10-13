@@ -97,7 +97,7 @@
 5. <ins>Create tests</ins>
  - First, delete the `ExampleUnitTest` File
  - Then, create a new file called `WizardTest` under the folder `com.example.lab_6 (test)`
- - Add the following setup code in `WizardTest` inside the WizardTest class:
+ - Add the following setup code in `WizardTest` inside the `WizardTest` class:
  ```kotlin
  private lateinit var evilWizard: Wizard
 
@@ -150,7 +150,8 @@ If you've been following along with the walkthrough, this exercise should be fai
     - Hint: Use `git clone`
 3. Add your Android Studio Project to your forked repository
     - Hint: Use `git add`, `git commit`, and `git push`
-    - Make sure to upload all your generated Dokka files, since the Dokka output folder is inside `/build`, which is often included in `.gitignore` by default.
+    - Make sure to upload all your generated Dokka files
+      - Note: The Dokka output folder is inside `/build`, which is often included in `.gitignore` by default.
 4. Update the `README.md` file with your details and references/collaborators
 5. Update the `LICENSE.md` file with your full name
 6. Submit the link to your GitHub repository on Canvas
